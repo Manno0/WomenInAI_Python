@@ -11,5 +11,3 @@ try:
         print("Correct answer : {x*y}")
 except ValueError:
     print("Please insert an integer")
-
-print(f"{x} * {y} = ?")
