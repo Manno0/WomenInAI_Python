@@ -1,6 +1,5 @@
 import random
 x= random.randint(1,20)
-print(x)
 y= random.randint(1,10)
 print(f"{x} * {y} = ?")
 
@@ -12,3 +11,5 @@ try:
         print("Correct answer : {x*y}")
 except ValueError:
     print("Please insert an integer")
+
+print(f"{x} * {y} = ?")
