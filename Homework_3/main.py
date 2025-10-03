@@ -5,7 +5,6 @@ def uniqueNames(names):
     for name in names:
         uniquenscores.add(name[1])
     print(f"Uniques Scores :  {uniquenscores}")
-
 def highestScore(students):
     besttoworst = sorted(students, key = lambda student: student[1], reverse = True)
     beststudents = []
@@ -21,5 +20,5 @@ def failedStudents(students):
     print(f"Failed students : {failedstudentsnames}")
 
 uniqueNames(students)
-highestScore(students)
 failedStudents(students)
+highestScore(students)
